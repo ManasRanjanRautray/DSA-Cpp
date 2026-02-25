@@ -1,7 +1,13 @@
 #include<iostream>
 using namespace std;
 
-void printcol(int arr[][4],int row,int col){}
+void printcol(int arr[][4],int row,int col){
+    //col wise
+    for(int i=0;i<col;i++)
+    for(int j=0;j<row;j++)
+    cout<<arr[j][i]<<" " ;
+
+}
 
 int main()
 

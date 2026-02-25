@@ -24,5 +24,6 @@ cout<<"size of capacity: "<<v1.capacity()<<endl;
 vector<int>vnew;
 vnew.push_back(2);
 vnew.push_back(31);
+vnew.erase (vnew.begin()+2);
 
 }
