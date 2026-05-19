@@ -2,7 +2,7 @@
 using namespace std;
 int fact(int n){
     //base case
-    if (n==1)
+    if (n==1 || n==0 )
     return 1;
 
 
@@ -12,7 +12,12 @@ int fact(int n){
 int main (){
 //factorial of no n
 int n;
-n=6;
+n=-7;
+if (n<0){
+    cout<<"factorial doesn't exist\n";
+    return  0;
+}
+
 cout<<fact(n);
     
 }
