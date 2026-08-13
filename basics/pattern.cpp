@@ -15,7 +15,7 @@ int main()
 //     int row,col;
 //     for (row=1;row<=8;row=row+1)
 //     {
-//         for (col=-1;col<=row;col=col+1)
+//         for (col=-1;col<=row;col=col+1)5
 //         cout<<col<<" ";
 //     cout<<endl;
 // }}
@@ -137,8 +137,7 @@ for(row=n;row>=1;row=row-1)
         cout<< " *"<<"";
         
     cout<<endl;}
-    for ( row=n-1
-        ;row>=1;row--)
+    for ( row=n-1;row>=1;row--)
     {
         for (col=1;col<=n-row;col++)
         cout<<"  ";
